@@ -1,4 +1,4 @@
-R scripts for forecasting in Q-Rapids
+# R scripts for forecasting in Q-Rapids
 
 R script file including a set of forecasting methods. This script acts as a wrapper of some state of the art forecasting methods, implemented in packages like the well-known **forecast**. Apart from that, it also implements some other useful aspects, like wrapping the **elastic** package to allow easy metrics, factors, and strategic indicators gathering from an elasticsearch DB. The script also implements saving and reusing the fitted forecasting models, in order to save time and computation resources.
 
