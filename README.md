@@ -33,12 +33,14 @@ The script depends on the following packages:
  - forecastHybrid
  - prophet
 
-These required packages are automatically installed when sourcing the script, but can be installed beforehand using the following commands:
+These required packages should be installed beforehand using the following commands:
 
-    install.packages("forecast", repos='https://cloud.r-project.org')
-    install.packages("devtools", repos='https://cloud.r-project.org')
-    library(devtools)
-    install_version("elastic", version="0.8.4", repos='https://cloud.r-project.org')
-    install.packages("forecastHybrid", repos='https://cloud.r-project.org')
-    install.packages("prophet", repos='https://cloud.r-project.org')
+     install.packages("devtools")
+     library(devtools)
+     install_version("forecast", version="8.7")
+     install_version("prophet", version="0.4")
+     install_version("Rserve", version="1.7-3.1")
+     install_version("elastic", version="0.8.4")
+     install_version("forecastHybrid", version="4.2.17")
+    
     
